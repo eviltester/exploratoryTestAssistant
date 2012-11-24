@@ -96,16 +96,19 @@ true false values are 0 for false, 1 for true
 leave a value blank to use the default
 
 Macros
-@AppDir - the directory of the application without a trailing \
-@YYYYMMDD - current date in YYYYMMDD format
-@HHMM - current time in HHMM format
-@CurrentDate - current date in system format
-@CurrentTime - current time in system format
+- @AppDir - the directory of the application without a trailing \
+- @YYYYMMDD - current date in YYYYMMDD format-
+- @HHMM - current time in HHMM format
+- @CurrentDate - current date in system format
+- @CurrentTime - current time in system format
 
 Templates are used to define what type of notes can be created and the format of them.
 
 Templates have a name
+```
 [Template:<name>]
+```
+
 A header, body and trailer
 
 Header and trailer can be hidden by setting the mode to H or Hidden.
@@ -114,6 +117,10 @@ Macros can be embedded in the templates. Create new lines in the templates with 
 config entry must be on a single line in the file.
 
 Use your favourite editor by amending textEditorPath in eta.ini e.g. c:\notepad++.exe
+
+
+Licensed Under Apache 2.0
+--------------------------
 
 
 Copyright 2006 Alan Richardson - Compendium Developments
